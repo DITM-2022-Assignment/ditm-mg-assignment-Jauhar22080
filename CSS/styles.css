@@ -10,6 +10,8 @@ body {
   padding: 0px;
 }
 
+/* Drop down menu */
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -80,25 +82,37 @@ body {
 }
 
 .introduction-text {
-  background-color: rgb(40, 40, 40);
   width: 100vw;
-  height: 300px;
-  margin-left: -10px;
-  margin-right: -10px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
-.imageandtextproblem {
-  background-color: rgb(40, 40, 40);
-  width: 100%;
-  height: fit-content;
+.introduction-text img {
+  margin-right: 100px;
+  margin-top: 15px;
+}
+
+.introTextText {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.introduction-text {
+  color: white;
+  font-size: 2rem;
+}
+
+.imagesThree {
   display: flex;
 }
 
 /*Text Divs*/
+
 .heading-text {
   font-size: 30px;
   color: rgb(226, 222, 222);
-  /* background- */
   text-align: left;
   padding: 10px;
   height: 40vh;
@@ -109,6 +123,15 @@ body {
   background-repeat: no-repeat;
   background-position-y: -1000px;
   background-image: url(/Images/silas-baisch-K785Da4A_JA-unsplash.jpg);
+}
+
+.graphtextpageone{
+  color: rgb(226, 222, 222);
+  font-size: 23px;
+  justify-content: center;
+  display: flex;
+  text-align: right;
+  margin: 10px;
 }
 
 .seatrashheadingproblem {
@@ -148,7 +171,7 @@ body {
   justify-content: left;
 }
 
-.image1page1{
+.image1page1 {
   width: 500px;
   height: 300px;
   margin: 20px;
@@ -156,7 +179,7 @@ body {
   justify-content: left;
 }
 
-.image2page1{
+.image2page1 {
   width: 500px;
   height: 300px;
   margin: 20px;
@@ -164,10 +187,15 @@ body {
   justify-content: middle;
 }
 
-.image3page1{
+.image3page1 {
   width: 500px;
   height: 300px;
   margin: 20px;
   padding: 20px;
   justify-content: right;
+}
+
+.graphimg{
+  justify-content: center;
+  display: flex;
 }
