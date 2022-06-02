@@ -204,6 +204,8 @@ body {
 /* Page 1 End */
 /* Page 2 */
 
+
+/* Body divs P2 */
 .headingpagetwo {
   font-size: 30px;
   color: rgb(143, 102, 102);
@@ -212,4 +214,22 @@ body {
   text-shadow: -2px -4px rgb(0, 0, 0);
   margin: 5px;
   width: fit-content;
+}
+
+.pagetwoexplanation {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 5px;
+  height: 200px;
+  width: 100vw;
+}
+
+/* Text Divs P2 */
+
+
+/* Image Divs P2 */
+
+.explanationimage {
+  
+  justify-content: right;
 }
