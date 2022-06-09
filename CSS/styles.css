@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(40, 40, 40);
+  overflow-x: hidden;
 }
 
 * {
@@ -92,13 +93,14 @@ body {
 }
 
 .introduction-text img {
-  margin-right: 100px;
   margin-top: 15px;
+  max-width: 500px;
+  margin-right: 5rem;
 }
 
 .introTextText {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .introduction-text {
@@ -132,8 +134,6 @@ body {
   font-size: 23px;
   justify-content: center;
   display: flex;
-  text-align: right;
-  margin: 10px;
 }
 
 .seatrashheadingproblem {
@@ -167,32 +167,31 @@ body {
 .imageforproblem {
   width: 500px;
   height: 300px;
-  margin: 20px;
-  padding: 20px;
-  justify-content: left;
+  /* justify-content: right; */
 }
 
 .image1page1 {
   width: 500px;
   height: 300px;
-  margin: 20px;
   padding: 20px;
-  justify-content: left;
+  margin-left: 10px;
+  justify-content: space-evenly;
 }
 
 .image2page1 {
   width: 500px;
   height: 300px;
-  margin: 20px;
+  margin-right: 110px;
+  margin-left: 110px;
   padding: 20px;
-  justify-content: middle;
+  justify-content: space-evenly;
 }
 
 .image3page1 {
   width: 500px;
   height: 300px;
-  margin: 20px;
   padding: 20px;
+  margin-left: 10px;
   justify-content: right;
 }
 
@@ -203,7 +202,6 @@ body {
 
 /* Page 1 End */
 /* Page 2 */
-
 
 /* Body divs P2 */
 .headingpagetwo {
@@ -226,25 +224,53 @@ body {
 
 /* Text Divs P2 */
 
-.explanationtext{
+.explanationtext {
   font-size: 20px;
   color: rgb(255, 255, 255);
   display: flex;
-  padding: 20px ;
+  padding: 20px;
   justify-content: space-evenly;
 }
 
-.pagetwo-graph-explain{
+.pagetwo-graph-explain {
   font-size: 20px;
   color: rgb(255, 255, 255);
   margin-left: 80px;
   margin-top: 20px;
   margin-bottom: 200px;
-
 }
 /* Image Divs P2 */
 
-.graphspagetwo{
+.graphspagetwo {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* Page 3 */
+
+/* Body Divs */
+
+/* Image Divs */
+
+/* Text Divs */
+.pagethree-header {
+  font-size: 30px;
+  color: rgb(143, 102, 102);
+  text-align: center;
+  padding: 10px;
+  text-shadow: -2px -4px rgb(0, 0, 0);
+  margin: 5px;
+  width: fit-content;
+}
+
+.donation-sites {
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+.places-to-go {
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  margin: 10px;
 }
