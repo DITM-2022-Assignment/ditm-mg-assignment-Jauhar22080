@@ -100,7 +100,7 @@ body {
 
 .introTextText {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .introduction-text {
@@ -229,7 +229,7 @@ body {
   color: rgb(255, 255, 255);
   display: flex;
   padding: 20px;
-  margin-right: 0px;
+  margin-left: 180px;
   justify-content: space-evenly;
 }
 
