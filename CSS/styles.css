@@ -100,7 +100,7 @@ body {
 
 .introTextText {
   text-align: left;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 .introduction-text {
@@ -133,7 +133,9 @@ body {
   color: rgb(226, 222, 222);
   font-size: 23px;
   justify-content: center;
-  display: flex;
+  width: 1200px;
+  margin-bottom: 50px;
+  margin-left: 20px;
 }
 
 .seatrashheadingproblem {
@@ -196,8 +198,8 @@ body {
 }
 
 .graphimg {
-  justify-content: center;
-  display: flex;
+  justify-content: left;
+  margin-left: 20px;
 }
 
 /* Page 1 End */
@@ -275,7 +277,6 @@ body {
   color: rgb(255, 255, 255);
   margin: 10px;
 }
-
 
 /* Page 3 end */
 /* Page 4 Start */
