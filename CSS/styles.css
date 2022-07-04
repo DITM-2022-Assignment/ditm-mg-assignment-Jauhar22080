@@ -269,22 +269,56 @@ body {
   width: fit-content;
 }
 
-.donation-sites {
+.donation-sites1 {
+  float: left;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.linksdonations1 {
+  color: #ddd;
+}
+
+.places-to-go {
+  float: left;
   font-size: medium;
   color: rgb(255, 255, 255);
   margin: 10px;
 }
 
-.places-to-go {
+.donationsite2 {
+  float: left;
   font-size: medium;
   color: rgb(255, 255, 255);
-  margin: 10px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
+
+.donationsite3 {
+  float: left;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.donationsite4 {
+  float: left;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+
 
 /* Page 3 end */
 /* Page 4 Start */
 
 /* Text divs */
+
 .headerpage4 {
   font-size: 30px;
   color: rgb(255, 255, 255);
@@ -314,3 +348,4 @@ body {
   display: flex;
   justify-content: center;
 }
+
